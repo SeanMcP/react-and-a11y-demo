@@ -1,15 +1,10 @@
 import React from 'react';
-
-import StylesContainer from '../styles/StylesContainer';
+import { AppContext } from '../reducers/appReducer';
 
 function App(props) {
-    return (
-        <StylesContainer>
-            <div className="App">
-                Hello world!
-            </div>
-        </StylesContainer>
-    );
+    const { state } = React.useContext(AppContext);
+    console.log(state);
+    return <div className="App">Hello world!</div>;
 }
 
 export default App;
