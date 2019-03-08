@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React && Accessibility",
+  "name": "Demo application for React && Accessibility talk",
   "icons": [
     {
       "src": "favicon.ico",
