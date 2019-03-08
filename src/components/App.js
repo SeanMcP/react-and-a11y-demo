@@ -1,10 +1,19 @@
 import React from 'react';
-import { AppContext } from '../reducers/appReducer';
+import { Router } from '@reach/router';
+// import { AppContext } from '../reducers/appReducer';
+
+const Home = () => <div>Home</div>;
+const Post = () => <div>Post</div>;
 
 function App(props) {
-    const { state } = React.useContext(AppContext);
-    console.log(state);
-    return <div className="App">Hello world!</div>;
+    return (
+        <div className="App">
+            <Router>
+                <Home path="/" exact />
+                <Post path="/post" />
+            </Router>
+        </div>
+    );
 }
 
 export default App;
