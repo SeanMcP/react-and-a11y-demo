@@ -1,17 +1,20 @@
 import React from 'react';
-import { AppContext } from '../../reducers/appReducer';
+
 import Rec from './Rec';
+import { AppContext } from '../../reducers/appReducer';
+
+import * as S from './Feed.styled'
 
 function Feed() {
     const {
         state: { recs }
     } = React.useContext(AppContext);
     return (
-        <div>
+        <S.Container>
             {recs.map((rec) => (
                 <Rec key={rec.id} {...rec} />
             ))}
-        </div>
+        </S.Container>
     );
 }
 

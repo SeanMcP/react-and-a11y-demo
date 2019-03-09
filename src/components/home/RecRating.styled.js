@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    margin-top: 1em;
 `;
 
 export const Rating = styled.div`

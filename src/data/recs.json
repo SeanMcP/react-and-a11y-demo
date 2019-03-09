@@ -8,7 +8,7 @@
         "tags": ["accessibility", "a11y"],
         "author": "seanmcp",
         "rating": {
-            "like": ["id"],
+            "like": ["id", "seanmcp"],
             "thoughtful": ["id"],
             "angry": ["id"],
             "sad": ["id"]
