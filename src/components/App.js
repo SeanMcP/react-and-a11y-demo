@@ -1,18 +1,19 @@
 import React from 'react';
 import { Router } from '@reach/router';
-// import { AppContext } from '../reducers/appReducer';
+
+import Layout from './layout/Layout';
 
 const Home = () => <div>Home</div>;
 const Post = () => <div>Post</div>;
 
-function App(props) {
+function App() {
     return (
-        <div className="App">
+        <Layout>
             <Router>
                 <Home path="/" exact />
                 <Post path="/post" />
             </Router>
-        </div>
+        </Layout>
     );
 }
 
