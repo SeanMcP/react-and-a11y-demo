@@ -6,6 +6,12 @@
         "title": "WebAIM",
         "description": "Not much on the eyes, but a great resources for web accessibility.",
         "tags": ["accessibility", "a11y"],
-        "author": "seanmcp"
+        "author": "seanmcp",
+        "rating": {
+            "like": ["id"],
+            "thoughtful": ["id"],
+            "angry": ["id"],
+            "sad": ["id"]
+        }
     }
 ]

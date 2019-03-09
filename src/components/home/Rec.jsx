@@ -1,6 +1,7 @@
 import React from 'react';
+import RecRating from './RecRating';
 
-function Rec({ author, date, description, tags, title, url }) {
+function Rec({ author, date, description, id, rating, tags, title, url }) {
     const _date = new Date(date);
     return (
         <div>
@@ -21,6 +22,7 @@ function Rec({ author, date, description, tags, title, url }) {
                     </a>
                 ))}
             </div>
+            <RecRating id={id} rating={rating} />
         </div>
     );
 }
