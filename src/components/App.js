@@ -2,8 +2,7 @@ import React from 'react';
 import { Router } from '@reach/router';
 
 import Layout from './layout/Layout';
-
-const Home = () => <div>Home</div>;
+import Home from './views/Home';
 const Post = () => <div>Post</div>;
 
 function App() {

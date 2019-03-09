@@ -2,6 +2,8 @@
     {
         "id": "0",
         "url": "https://webaim.org",
+        "date": 1552141634183,
+        "title": "WebAIM",
         "description": "Not much on the eyes, but a great resources for web accessibility.",
         "tags": ["accessibility", "a11y"],
         "author": "seanmcp"
